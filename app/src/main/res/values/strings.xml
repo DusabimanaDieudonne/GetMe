@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GetMe</string>
+    <string name="start">Welcome to GetMe App</string>
+    <string name="kgl"> We care for your time and your safety.</string>
+    <string name="travel">Go</string>
+    <string name="line">This is the bus stop that are in your destination, pick your main destination</string>
+    <string name="search">Search location</string>
+    <string name="source">Type Your Destination</string>
+    <!--<string name="facebook_app_id">712250289164239</string>-->
+    <!--<string name="app_id">712250289164239</string>-->
+    <!--<string name="facebook_app_id">712250289164239</string>-->
+
+    <string name="facebook_app_id">712250289164239</string>
+    <string name="fb_login_protocol_scheme">fb712250289164239</string>
+
+    <string name="country_prompt">Choose a your source</string>
+    <string-array name="country_arrays">
+        <item>Rugunga</item>
+        <item>Kimironko</item>
+        <item>Kimihurura</item>
+        <item>Remera</item>
+        <item>Kanombe</item>
+        <item>Nyabugogo</item>
+        <item>Nyamirambo</item>
+    </string-array>
+</resources>

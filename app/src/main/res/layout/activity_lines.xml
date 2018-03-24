@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rigoeffector.getme.LinesActivity"
+    android:background="@drawable/back">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:text="@string/line"
+            android:textColor="@color/textview"
+            android:textSize="18dp"
+            android:id="@+id/textView"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:src="@drawable/rugunga"
+            android:id="@+id/images"
+            android:layout_below="@id/textView"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/images"
+            android:background="@color/text">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KN 2 AV----------RUGUNGA"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/text1"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KN 702 ST----------LYCE DE KIGALI"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/text2"
+                android:layout_below="@id/text1"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use bus with number = 302"
+                android:textColor="#900"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/text3"
+                android:layout_below="@id/text2"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
